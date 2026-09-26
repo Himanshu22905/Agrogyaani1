@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getWeather } from "@/lib/weather/client";
+import { getWeather } from "@/app/lib/Weather/client";
 
 export async function GET(request: NextRequest) {
   const latitude = Number(
